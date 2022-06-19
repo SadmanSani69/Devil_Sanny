@@ -400,13 +400,11 @@ logo = ("""\033[1;32m
                                              
 
                                             \033
-╔═══════════════════╗
-   Auther   :  Mr. SANNY               
-
-   Github   :  MARK SANNY
-                                                
-    Facebook: Sadman Sani.      
-╚═══════════════════╝\033[1;37m""")
+       ╔═════════════════════════════╗
+       ║           Auther     :  Mr. SANNY                                 ║                                 
+       ║           Github      :  MARK SANNY                           ║                           
+       ║          Facebook : Sadman Sani                              ║
+       ╚═════════════════════════════╝\033[1;37m""")
 
 class Main:
 	def __init__(self):
@@ -422,16 +420,16 @@ class Main:
 		print(" [4] 2008-9 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		Rakib =input(" Choose : ")
-		if Rakib in ["1", "01"]:
+		Sanny =input(" Choose : ")
+		if Sanny in ["1", "01"]:
 			File()
-		if Rakib in ["2", "02"]:
+		if Sanny in ["2", "02"]:
 			Public()
-		if Rakib in ["3", "03"]:
+		if Sanny in ["3", "03"]:
 			os.system("python Dump.py")
-		if Rakib in ["4", "04"]:
+		if Sanny in ["4", "04"]:
 			self.old()
-		if Rakib in ["5", "05"]:
+		if Sanny in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
